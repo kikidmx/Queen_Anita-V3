@@ -4,7 +4,7 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
+global.owner = 0721534466'
 global.nomerowner = ["2347043759577"]
 
 // Apikey 
@@ -64,18 +64,18 @@ global.available = false;
 // to show always online  
 global.autoreadmessages = false;   
 ///To always read messages
-global.chatbot = false;
+global.chatbot = true;
 global.autoreact = false;
 
-global.welcome = false;
+global.welcome = true;
 
 global.prefix = '.';
 
 global.autobio = false;
 
-global.antilink = false;
+global.antilink = true;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
 global.antilinkwarn = false;
 
